@@ -1,0 +1,6 @@
+NORMAL/
+PNEUMONIA/
+*.pth
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
