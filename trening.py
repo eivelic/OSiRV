@@ -91,7 +91,7 @@ for epoch in range(epochs):
     
     print(f"Loss: {history['train_loss'][-1]:.4f} | Acc: {history['train_acc'][-1]:.4f}")
 
-# 5. Testiranje (Metrike koje profesor traži)
+# 5. Testiranje
 print("\nEvaluacija na neviđenom testnom skupu...")
 model.eval()
 y_true, y_pred = [], []
